@@ -19,9 +19,11 @@ class FlowViewModel : ViewModel() {
 
     val repository = Repository()
 
+    val x = "X"
+
 
     private val _errorMessage = MutableSharedFlow<String>()
-    val errorMessage : SharedFlow<String> = _errorMessage
+    val errorMessage: SharedFlow<String> = _errorMessage
 
 
     private val _apiData = MutableStateFlow<String>("X")
@@ -33,7 +35,7 @@ class FlowViewModel : ViewModel() {
     val combinedFlow = apiData.combine(apiDataNumber) { firstFlowData, secondFlowData ->
 
         var result = ""
-        for(i in 1..secondFlowData) {
+        for (i in 1..secondFlowData) {
             result += firstFlowData
         }
 
