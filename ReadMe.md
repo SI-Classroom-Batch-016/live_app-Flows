@@ -8,7 +8,11 @@ Inhaltsverzeichnis
 
 ## Screenshots
 
-<img src="images/Screenshot_1.png" width="150" height="300" />![](images/Screenshot_2.png)
+<img src="images/Screenshot_1.png" width="150" height="300" />
+<img src="images/Screenshot_2.png" width="150" height="300" />
+
+
+![](images/Screenshot_2.png)
 
 ## 1
 
